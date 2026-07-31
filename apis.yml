@@ -1,8 +1,13 @@
 aid: noox
 name: Noox
-description: 'Noox is a company surfaced as a portfolio company of electric-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Noox is a Web3 platform for creating and collecting achievement badges as soulbound
+  NFTs, letting people build verifiable on-chain reputation. Users discover community-curated
+  Web3 achievements, check eligibility, and mint them as identity-bound (non-transferable) NFTs,
+  while creators build custom on-chain achievements from live blockchain data with a no-code,
+  template-based designer. The protocol is deployed on Ethereum mainnet (badge, badgeMinter and
+  feeCollector smart contracts) and is powered by Alchemy Web3 infrastructure. Noox is a portfolio
+  company of Electric Capital in the crypto sector. Note: Noox exposes no public REST/HTTP developer
+  API, OpenAPI, GraphQL/subgraph, or SDK; its developer surface is the on-chain smart contracts.'
 url: https://raw.githubusercontent.com/api-evangelist/noox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,32 @@ x-backed-by:
 - electric-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.noox.world/favicon.ico
 tags:
 - Company
 - Crypto
+- Web3
+- Blockchain
+- Ethereum
+- NFT
+- Reputation
+- Badges
+- Achievements
+- Soulbound
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noox-domain-security.yml
 - type: Website
   url: https://www.noox.world/
+- type: Documentation
+  url: https://docs.noox.world/
+- type: DeveloperPortal
+  url: https://docs.noox.world/devs/contracts
+- type: Support
+  url: https://docs.noox.world/faqs/faq
+- type: Blog
+  url: https://mirror.xyz/noox.eth
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
